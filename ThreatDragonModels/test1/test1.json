@@ -5,7 +5,11 @@
     "description": "dddd"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "mma"
+      }
+    ],
     "diagrams": [
       {
         "title": "test",
